@@ -16,11 +16,10 @@ body{
 
 .card{
     background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 70vh;
+    width: 350px;
+    height: 80vh;
     border-radius: 10px;
     overflow: scroll;
-    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -44,6 +43,7 @@ body{
     border: none;
     text-align: center;
     border-radius: 30px;
+    
 }
 
 .input>button{
@@ -61,7 +61,9 @@ ul li{
     position: relative;
     font-size: 17px;
     cursor: pointer;
-    padding: 12px 8px 12px 50px;
+    padding: 12px 50px 12px 50px;
+    overflow-wrap: break-word;
+    
 }
 
 ul li::before{
@@ -112,6 +114,8 @@ ul li span:hover{
     background-color: rgba(115, 113, 113, 0.444);
     scale: 0.95;
 }
+
+
 
 .heading{
     font-size: 30px;
